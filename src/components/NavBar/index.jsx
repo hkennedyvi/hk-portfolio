@@ -43,7 +43,7 @@ function NavBar() {
                         </a>
                     </li>
                     <li className="nav_item">
-                        <a className="nav_link" href="/">
+                        <a className="nav_link" href="/contact">
                             <span className="link_text">
                                 Contact
                             </span>
