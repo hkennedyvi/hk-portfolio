@@ -4,7 +4,7 @@ import './projects.scss';
 function Projects() {
 
     return (
-        <div className="projects">
+        <div className="projects_container">
           {/* <div className="test_circle">
             p
           </div> */}
