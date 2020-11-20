@@ -20,13 +20,13 @@ function NavBar() {
             <nav className={`navbar ${navBarStatus}`}>
                 <ul className="nav_list">
                     <li className="nav_item">
-                        <a className="nav_link" href="/">
+                        <div className="nav_link nav_button" onClick={toggleNavBar}>
                             <span className="link_text">
-                                <button className="nav_button" onClick={toggleNavBar}>
+                                <p>
                                     X
-                                </button>
+                                </p>
                             </span>
-                        </a>
+                        </div>
                     </li>
                     <li className="nav_item">
                         <a className="nav_link" href="/">
