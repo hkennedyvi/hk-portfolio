@@ -6,3 +6,16 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
 }
+
+.nav_button {
+  background: none;
+  border: none;
+}
+
+.nav_button:hover {
+  cursor: pointer;
+}
+
+.nav_button:focus {
+  outline: none;
+}

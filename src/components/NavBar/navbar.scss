@@ -1,6 +1,6 @@
 .navbar {
     position: fixed;
-    background: blue;
+    background: grey;
     width: 0;
     transition: width 200ms;
 }
@@ -20,7 +20,7 @@
 }
 
 .nav_item:hover {
-    background: red;
+    background: rgb(95, 95, 95);
 }
 
 .nav_link {
@@ -36,23 +36,10 @@
     margin: 0 0 0 1rem;
 }
 
-.nav_button {
-    background: none;
-    border: none;
-}
-
-.nav_button:hover {
-    cursor: pointer;
-}
-
-.nav_button:focus {
-    outline: none;
-}
-
 .burger {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 1rem;
+    left: 1rem;
     width: 5rem;
 
     .burger_bar {
