@@ -36,9 +36,9 @@ function NavBar() {
                         </a>
                     </li>
                     <li className="nav_item">
-                        <a className="nav_link" href="/">
+                        <a className="nav_link" href="/portfolio">
                             <span className="link_text">
-                                About
+                                Portfolio
                             </span>
                         </a>
                     </li>
