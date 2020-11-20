@@ -43,6 +43,13 @@ function NavBar() {
                         </a>
                     </li>
                     <li className="nav_item">
+                        <a className="nav_link" href="/about">
+                            <span className="link_text">
+                                About
+                            </span>
+                        </a>
+                    </li>
+                    <li className="nav_item">
                         <a className="nav_link" href="/contact">
                             <span className="link_text">
                                 Contact

@@ -1,0 +1,19 @@
+.resume_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5em;
+    width: 80vw;
+    height: 100vh;
+    border: black solid 1px;
+}
+
+.entry {
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+}
+
+.right_column {
+    display: flex;
+    flex-direction: column;
+}
