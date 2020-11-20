@@ -32,16 +32,27 @@
 }
 
 .link_text {
-    display: none;
+    visibility: hidden;
     margin: 0 0 0 1rem;
+}
+
+.nav_button {
+    background: none;
+    border: none;
+}
+
+.nav_button:hover {
+    cursor: pointer;
+}
+
+.nav_button:focus {
+    outline: none;
 }
 
 .burger {
     position: absolute;
     top: 0;
-    left: 35px;
-    background: none;
-    border: none;
+    left: 0;
     width: 5rem;
 
     .burger_bar {
@@ -57,18 +68,17 @@
 
     .burger_bar:nth-child(2) {
         width: 30%;
-        transition: ease-in 200ms;
+        transition: ease-in 300ms;
     }
 
     .burger_bar:nth-child(3) {
         width: 50%;
-        transition: ease-in 200ms;
+        transition: ease-in 300ms;
     }
 }
 
 .burger:hover .burger_bar {
     width: 100%;
-    cursor: pointer;
 }
 
 /* Large Screens */
@@ -82,7 +92,8 @@
         width: 16rem;
 
         .link_text {
-            display:block;
+            visibility: visible;
+            transition: visibility 10000ms;
         }
     }
 }

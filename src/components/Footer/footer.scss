@@ -1,0 +1,18 @@
+.footer {
+    background: transparent;
+    display: flex;
+    justify-content: flex-end;
+    border: red solid 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+.icon_container {
+    font-size: 3rem;
+    padding: 2rem 10rem 2rem 0;
+}
+
+.social_icon {
+    margin: 0 1rem;
+}
