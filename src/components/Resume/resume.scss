@@ -1,19 +1,26 @@
 .resume_container {
+    padding: 5rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5rem;
     margin: 5em;
-    width: 80vw;
+    width: 70vw;
     height: 100vh;
     border: black solid 1px;
 }
 
-.entry {
-    display: flex;
-    justify-content: space-around;
-    text-align: start;
+.entry_left {
+    border: 1px solid black;
+    grid-column: 1;
+    text-align: end;
 }
 
-.right_column {
-    display: flex;
-    flex-direction: column;
+.entry_right {
+    border: 1px solid red;
+    grid-column: 2 / 4;
+}
+
+svg {
+    max-height: 5rem;
+    max-width: 5rem;
 }
