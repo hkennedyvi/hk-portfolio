@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Bitmoji from './images/portfolio_bitmoji.png';
 import './main.scss';
 
 function Main() {
@@ -36,7 +37,8 @@ function Main() {
                 </p>
             </div>
             <div>
-                <div className="dummy_image">
+                <div className="image_frame">
+                    <img className="main_image" src={Bitmoji} alt=""/>
                 </div>
             </div>
         </div>

@@ -8,13 +8,13 @@ function ContactForm() {
                 <h4>
                     don't be a stranger
                 </h4>
-                <h1>
+                <h1 className="greeting_header">
                     Contact Me
                 </h1>
             </div>
             <div className="contact_container">
                 <div>
-                    <h2>
+                    <h2 className="contact_header">
                         let's work together
                     </h2>
                 </div>

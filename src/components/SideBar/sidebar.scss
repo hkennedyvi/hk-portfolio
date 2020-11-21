@@ -2,13 +2,12 @@
     position: fixed;
     display: flex;
     justify-content: space-around;
-    border: blue solid 1px;
-    background: #cccccc ;
+    background: rgb(165, 165, 165);
     width: 100vh;
     height: 100%;
     transform-origin: top right;
     top: 0;
     right: 4rem;
     transform: rotate(-90deg);
-    z-index: 1;
+    z-index: 2;
 }

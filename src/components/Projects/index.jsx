@@ -82,15 +82,15 @@ function Projects() {
                 </h2>
               </div>
               <div className="project">
-                <img src={project.image} alt="" />
+                <img className="project_image" src={project.image} alt="" />
                 <h3>{project.description}</h3>
                 <h3>{project.objective}</h3>
                 <div>
-                  <a className="projects_link" href={project.link} target="_blank">
+                  <a className="projects_link" href={project.link} rel="noreferrer" target="_blank">
                     LINK &nbsp;
                           <i class="fas fa-link"></i>
                   </a>
-                  <a className="projects_link" href={project.repo} target="_blank">
+                  <a className="projects_link" href={project.repo} rel="noreferrer" target="_blank">
                     REPO &nbsp;
                           <i class="fas fa-code"></i>
                   </a>

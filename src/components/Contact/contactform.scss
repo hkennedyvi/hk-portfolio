@@ -1,22 +1,57 @@
 .greeting {
-    padding: 7rem;
+    margin: 0 auto;
+    padding: 4rem;
     width: 90vw;
     background: pink;
     text-align: center;
+    animation: slideDown 1500ms ease-out forwards;
+}
+
+.greeting_header {
+    font-size: 6rem;
+    margin: 0;
 }
 
 .contact_container {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    width: 85vw;
+    width: 100vw;
     height: 20rem;
     background: white;
     justify-content: space-around;
-    // align-items: stretch;
+    animation: slideUp 1600ms;
+}
+
+.contact_header {
+    margin: 0 0 0 4rem;
 }
 
 .info_container {
     display: flex;
     justify-content: space-evenly;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        margin-top: 25rem;
+    }
+
+    to {
+        opacity: 1;
+        margin: 0 auto;
+    }
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        height: 0;
+    }
+
+    to {
+        opacity: 1;
+        height: 25vh;
+    }
 }

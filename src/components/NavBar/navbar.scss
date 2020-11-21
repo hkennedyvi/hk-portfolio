@@ -3,7 +3,7 @@
     background: grey;
     width: 0;
     transition: width 200ms;
-    z-index: 2;
+    z-index: 4;
 }
 
 .nav_list {
@@ -42,6 +42,7 @@
     top: 1rem;
     left: 1rem;
     width: 5rem;
+    z-index: 3;
 
     .burger_bar {
         margin: 0.5rem 0;

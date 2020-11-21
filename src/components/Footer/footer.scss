@@ -1,11 +1,11 @@
 .footer {
-    background: transparent;
+    background: #cccccc;
     display: flex;
     justify-content: flex-end;
-    border: red solid 1px;
     position: fixed;
     bottom: 0;
     width: 100vw;
+    z-index: 1;
 }
 
 .icon_container {
@@ -15,4 +15,5 @@
 
 .social_icon {
     margin: 0 1rem;
+    color: black;
 }
