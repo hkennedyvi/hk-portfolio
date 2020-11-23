@@ -18,7 +18,6 @@ import Python from './icons/python';
 import ReactIcon from './icons/reacticon';
 import Sass from './icons/sass';
 import Vue from './icons/vue';
-import Webpack from './icons/webpack';
 
 function Resume() {
     return (
@@ -44,8 +43,14 @@ function Resume() {
                     Design Tools:
                 </div>
                 <div className="entry_right icon_grid">
-                    <div className="entry"><img id="figma_icon" src={Figma} alt="" />Figma</div>
-                    <div className="entry"><Photoshop />Photoshop Elements</div>
+                    <div className="entry">
+                        <img id="figma_icon" src={Figma} alt="" />
+                        <span className="entry_text">Figma</span>
+                        </div>
+                    <div className="entry">
+                        <Photoshop />
+                        <span className="entry_text">Photoshop Elements</span>
+                        </div>
                 </div>
                 <div className="entry_left">
                     Languages:
@@ -57,19 +62,19 @@ function Resume() {
                     </div>
                     <div className="entry">
                         <Javascript />
-                        <span>Javascipt</span>
+                        <span className="entry_text">Javascipt</span>
                     </div>
                     <div className="entry">
                         <Node />
-                        <span>Node JS</span>
+                        <span className="entry_text">Node JS</span>
                     </div>
                     <div className="entry">
                         <Jquery />
-                        <span>JQuery</span>
+                        <span className="entry_text">JQuery</span>
                     </div>
                     <div className="entry">
                         <Python />
-                        <span>Python</span>
+                        <span className="entry_text">Python</span>
                     </div>
                 </div>
                 <div className="entry_left">
@@ -78,15 +83,15 @@ function Resume() {
                 <div className="entry_right icon_grid">
                     <div className="entry">
                         <ReactIcon />
-                        <span>React</span>
+                        <span className="entry_text">React</span>
                     </div>
                     <div className="entry">
                         <Vue />
-                        <span>VueJS</span>
+                        <span className="entry_text">VueJS</span>
                     </div>
                     <div className="entry">
                         <Django />
-                        <span>Django</span>
+                        <span className="entry_text">Django</span>
                     </div>
                 </div>
                 <div className="entry_left">
@@ -95,15 +100,15 @@ function Resume() {
                 <div className="entry_right icon_grid">
                     <div className="entry">
                         <Css />
-                        <span>CSS</span>
+                        <span className="entry_text">CSS</span>
                     </div>
                     <div className="entry">
                         <Sass />
-                        <span>Sass</span>
+                        <span className="entry_text">Sass</span>
                     </div>
                     <div className="entry">
                         <Bootstrap />
-                        <span>Bootstrap</span>
+                        <span className="entry_text">Bootstrap</span>
                     </div>
                 </div>
                 <div className="entry_left">
@@ -112,11 +117,11 @@ function Resume() {
                 <div className="entry_right icon_grid">
                     <div className="entry">
                         <Amazon />
-                        <span>Amazon Web Services</span>
+                        <span className="entry_text">Amazon Web Services</span>
                     </div>
                     <div className="entry">
                         <Heroku />
-                        <span>Heroku</span>
+                        <span className="entry_text">Heroku</span>
                     </div>
                 </div>
                 <div className="entry_left">
@@ -125,15 +130,15 @@ function Resume() {
                 <div className="entry_right icon_grid">
                     <div className="entry">
                         <Mongo />
-                        <span>MongoDB</span>
+                        <span className="entry_text">MongoDB</span>
                     </div>
                     <div className="entry">
                         <Postgres />
-                        <span>PostgreSQL</span>
+                        <span className="entry_text">PostgreSQL</span>
                     </div>
                     <div className="entry">
                         <Mysql />
-                        <span>MySQL</span>
+                        <span className="entry_text">MySQL</span>
                         </div>
                 </div>
             </div>
