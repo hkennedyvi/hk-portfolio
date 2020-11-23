@@ -48,3 +48,20 @@ svg, #figma_icon {
     max-height: 3rem;
     max-width: 3rem;
 }
+
+@media only screen and (max-width: 600px) { 
+    .resume_container {
+       width: 100vw;
+       grid-column-gap: 1rem;
+    }
+
+    .icon_grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .entry_text {
+        margin-left: 1rem;
+        font-size: 0.7rem;
+    }
+}
