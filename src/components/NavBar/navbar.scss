@@ -88,7 +88,7 @@
             transition: visibility 10000ms;
         }
 
-        #nav_close_btn {
+        #nav_close_btn:first-child {
             background: white;
             color: black;
             justify-content: flex-end;
@@ -99,5 +99,42 @@
             background: black;
             color: white;
         }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .burger {
+        display: none;
+    }
+
+    .navbar {
+        bottom: 0;
+        width: 100vw;
+        background: rgb(95, 95, 95);
+    }
+
+    .nav_list {
+        flex-direction: row;
+    }
+
+    .nav_link {
+        font-size: 1rem;
+        justify-content: center;
+        color: rgb(231, 230, 230);
+    }
+
+    .link_text {
+        visibility: visible;
+        margin: 0;
+        transform: rotate(-40deg);
+    }
+
+    .nav_item:hover {
+        background: rgb(31, 31, 31);
+        border: solid 1px white;
+    }
+
+    .nav_item:first-child {
+        display: none;
     }
 }
