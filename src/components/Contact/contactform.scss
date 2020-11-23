@@ -1,7 +1,7 @@
 .greeting {
     margin: 0 auto;
-    padding: 4rem;
-    width: 90vw;
+    padding: 4rem 0;
+    width: 100vw;
     background: pink;
     text-align: center;
     animation: slideDown 1500ms ease-out forwards;
@@ -13,7 +13,6 @@
 }
 
 .contact_container {
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -52,6 +51,32 @@
 
     to {
         opacity: 1;
-        height: 25vh;
+        height: 35vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .greeting {
+        padding: 8rem 0;
+        width: 100vw;
+        background: pink;
+        text-align: center;
+        animation: slideDown 1500ms ease-out forwards;
+    }
+
+    .info_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .contact_container {
+        height: 35rem;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .contact_header {
+        margin: 0;
     }
 }

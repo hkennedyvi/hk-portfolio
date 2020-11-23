@@ -1,9 +1,3 @@
-.main {
-    text-align: center;
-    display: flex;
-    margin: 5rem 10rem;
-}
-
 .main_header {
     margin: 0;
     font-size: 10rem;
@@ -16,6 +10,10 @@
 
 .main_blurb_top_item {
     margin: 0 1rem 0 0;
+}
+
+.blurb_copy {
+    line-height: 2rem;
 }
 
 .decoration_circle {
@@ -47,40 +45,6 @@
     transform: rotate(90deg);
 }
 
-.blurb_copy {
-    width: 100%;
-    height: 30%;
-    border-bottom: 5px solid white;
-    overflow: hidden;
-    visibility: hidden;
-}
-
-.blurb_animated {
-    animation: slide-left ease-out 1200ms;
-    animation-fill-mode: forwards;
-}
-
-@keyframes slide-left {
-    0% {
-        margin: 0 0 0 100%;
-        opacity: 0;
-    }
-
-    90% {
-        opacity: 0.3;
-    }
-
-    100% {
-        margin-left: 0%;
-        opacity: 1;
-        visibility: visible;
-    }
-}
-
-.main_blurb {
-    text-align: start;
-}
-
 .image_frame {
     width: 30rem;
     height: 30rem;
@@ -90,4 +54,90 @@
 
 .main_image {
     min-width: 100%;
+}
+/* Large Screens */
+@media only screen and (min-width: 600px) {
+    .main {
+        display: flex;
+        margin: 5rem 10rem;
+    }
+
+    .main_blurb {
+        text-align: start;
+    }
+
+    .blurb_copy {
+        width: 100%;
+        height: 40%;
+        border-bottom: 5px solid white;
+        visibility: hidden;
+    }
+
+    .blurb_animated {
+        animation: slide-left ease-out 1200ms;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes slide-left {
+        0% {
+            margin: 0 0 0 100%;
+            opacity: 0;
+        }
+
+        90% {
+            opacity: 0.3;
+        }
+
+        100% {
+            margin-left: 0%;
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}
+/* Small Screens */
+@media only screen and (max-width: 600px) {
+    .main {
+        flex-direction: column;
+        margin: 10rem 0 0 0;
+        height: 150vh;
+        align-items: center;
+    }
+
+    .main_blurb {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .arrow_block {
+        display: none;
+    }
+
+    .blurb_copy {
+        width: 80%;
+        height: 100%;
+        visibility: visible;
+    }
+
+    .image_frame {
+        margin: 0 auto;
+    }
+
+    @keyframes slide-up {
+        0% {
+            margin: 100% 0 0 0;
+            opacity: 0;
+        }
+
+        90% {
+            opacity: 0.3;
+        }
+
+        100% {
+            margin: 0%;
+            opacity: 1;
+            visibility: visible;
+        }
+    }
 }

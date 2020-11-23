@@ -104,7 +104,7 @@ function Projects() {
               </div>
             </React.Fragment>
           )
-        })};
+        })}
       </div>
     </div>
   )

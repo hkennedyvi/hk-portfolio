@@ -11,3 +11,12 @@
     transform: rotate(-90deg);
     z-index: 2;
 }
+
+@media only screen and (max-width: 600px) {
+    .sidebar {
+        transform: rotate(0deg);
+        width: 100vw;
+        height: 10vh;
+        right: 0;
+    }
+}
