@@ -1,5 +1,5 @@
 .projects_container {
-    margin:  5rem 0 0 5rem;
+    margin: 5rem 0 0 5rem;
 }
 
 .projects_grid {
@@ -42,6 +42,7 @@
     margin: 0 1rem;
 }
 
+//Project Label
 .project:nth-child(odd) {
     width: 30vw;
     color: black;
@@ -49,6 +50,7 @@
     justify-content: flex-end;
 }
 
+//Project Box
 .project:nth-child(even) {
     width: 49vw;
     padding: 2rem;
@@ -82,6 +84,18 @@
     }
 }
 
+@keyframes shrink {
+    from {
+        // height: 10rem;
+        // width: 10rem;
+    }
+
+    to {
+        visibility: hidden;
+        width: 0;
+    }
+}
+
 @keyframes expand {
     from {
         // height: 10rem;
@@ -89,7 +103,6 @@
     }
 
     to {
-        height: 40rem;
-        width: 40rem;
+        width: 70vw;
     }
 }

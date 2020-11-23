@@ -16,7 +16,8 @@ function Projects() {
       objective: "Responsive, mobile-design with from scratch animations.",
       link: "https://goodrestaurant.herokuapp.com/",
       repo: "https://github.com/hkennedyvi/foodapp",
-      image: Restaurant
+      image: Restaurant,
+      isExpanded: true
     },
     {
       number: 2,
@@ -25,7 +26,8 @@ function Projects() {
       objective: "Responsive, mobile-design with from scratch animations.",
       link: "https://master.d3d58nhol1cgjn.amplifyapp.com/",
       repo: "https://github.com/hkennedyvi/store",
-      image: Shopper
+      image: Shopper,
+      isExpanded: false
     },
     {
       number: 3,
@@ -34,7 +36,8 @@ function Projects() {
       objective: "Responsive, mobile-design with from scratch animations.",
       link: "/",
       repo: "https://github.com/hkennedyvi/project",
-      image: Cars
+      image: Cars,
+      isExpanded: false
     },
     {
       number: 4,
@@ -43,7 +46,8 @@ function Projects() {
       objective: "Responsive, mobile-design with from scratch animations.",
       link: "https://i-bloggy.herokuapp.com/",
       repo: "https://github.com/hkennedyvi/bloggy",
-      image: Bloggy
+      image: Bloggy,
+      isExpanded: false
     },
     {
       number: 5,
@@ -52,31 +56,33 @@ function Projects() {
       objective: "Responsive, mobile-design with from scratch animations.",
       link: "https://imalreadybooked.herokuapp.com/",
       repo: "https://github.com/hkennedyvi/google-books",
-      image: AlreadyBooked
+      image: AlreadyBooked,
+      isExpanded: false
     },
     {
-      number: 5,
+      number: 6,
       title: "shopper",
       description: "Website for a fictional online shoe store.",
       objective: "Responsive, mobile-design with from scratch animations.",
       link: "https://master.d3d58nhol1cgjn.amplifyapp.com/",
       repo: "https://github.com/hkennedyvi/store",
-      image: Shopper
+      image: Shopper,
+      isExpanded: false
     },
-  ]
+  ];
 
   return (
     <div className="projects_container">
       {/* <div className="test_circle">
           </div> */}
       <div className="projects_grid">
-      {myProjects.map((project) => {
+        {myProjects.map((project) => {
           return (
-            <React.Fragment>
+            <React.Fragment key={project.number}>
               <div className="project">
                 <h1 className="project_header">
                   Project {project.number}
-                        </h1>
+                </h1>
                 <h2 className="project_subheader">
                   {project.title}
                 </h2>
@@ -88,15 +94,15 @@ function Projects() {
                 <div>
                   <a className="projects_link" href={project.link} rel="noreferrer" target="_blank">
                     LINK &nbsp;
-                          <i class="fas fa-link"></i>
+                      <i className="fas fa-link"></i>
                   </a>
                   <a className="projects_link" href={project.repo} rel="noreferrer" target="_blank">
                     REPO &nbsp;
-                          <i class="fas fa-code"></i>
+                      <i className="fas fa-code"></i>
                   </a>
                 </div>
               </div>
-              </React.Fragment>
+            </React.Fragment>
           )
         })};
       </div>
