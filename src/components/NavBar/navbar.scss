@@ -29,6 +29,8 @@
     align-items: center;
     height: 5rem;
     color: black;
+    font-weight: bolder;
+    font-size: 2rem;
     text-decoration: none;
 }
 
@@ -38,7 +40,7 @@
 }
 
 .burger {
-    position: absolute;
+    position: fixed;
     top: 1rem;
     left: 1rem;
     width: 5rem;
@@ -79,10 +81,23 @@
 
     .navbar_open {
         width: 16rem;
+        border-right: 1px solid black;
 
         .link_text {
             visibility: visible;
             transition: visibility 10000ms;
+        }
+
+        #nav_close_btn {
+            background: white;
+            color: black;
+            justify-content: flex-end;
+            padding: 0 2rem 0 0;
+        }
+
+        #nav_close_btn:hover {
+            background: black;
+            color: white;
         }
     }
 }

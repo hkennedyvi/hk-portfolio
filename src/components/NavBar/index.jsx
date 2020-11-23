@@ -3,11 +3,11 @@ import './navbar.scss';
 
 function NavBar() {
 
-    const [navBarStatus, setNavBarStatus] = useState('navbar_closed');
+    const [navBarStatus, setNavBarStatus] = useState('');
 
     function toggleNavBar(e) {
         e.preventDefault();
-        setNavBarStatus(navBarStatus === 'navbar_open' ? 'navbar_closed' : 'navbar_open');
+        setNavBarStatus(navBarStatus === '' ? 'navbar_open' : '');
     };
 
     return (
@@ -20,11 +20,9 @@ function NavBar() {
             <nav className={`navbar ${navBarStatus}`}>
                 <ul className="nav_list">
                     <li className="nav_item">
-                        <div className="nav_link nav_button" onClick={toggleNavBar}>
+                        <div id="nav_close_btn" className="nav_link nav_button" onClick={toggleNavBar}>
                             <span className="link_text">
-                                <p>
                                     X
-                                </p>
                             </span>
                         </div>
                     </li>
