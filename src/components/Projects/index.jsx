@@ -73,6 +73,9 @@ function Projects() {
 
   return (
     <div className="projects_container">
+      <h1 className="projects_header">
+        works by me
+      </h1>
       {/* <div className="test_circle">
           </div> */}
       <div className="projects_grid">
@@ -89,8 +92,8 @@ function Projects() {
               </div>
               <div className="project">
                 <img className="project_image" src={project.image} alt="" />
-                <h3>{project.description}</h3>
-                <h3>{project.objective}</h3>
+                <h3 className="project_info">{project.description}</h3>
+                <h3 className="project_info">{project.objective}</h3>
                 <div>
                   <a className="projects_link" href={project.link} rel="noreferrer" target="_blank">
                     LINK &nbsp;

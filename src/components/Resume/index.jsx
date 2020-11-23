@@ -23,7 +23,9 @@ function Resume() {
     return (
         <div className="about_container">
             <div className="resume_container">
-                <h1 className="resume_header">resume</h1>
+                <h1 className="resume_header">
+                    resume
+                </h1>
                 <div className="entry_left">
                     Name:
                 </div>
