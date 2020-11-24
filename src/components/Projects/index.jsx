@@ -74,7 +74,7 @@ function Projects() {
   return (
     <div className="projects_container">
       <h1 className="projects_header">
-        works by me
+        my work
       </h1>
       {/* <div className="test_circle">
           </div> */}
