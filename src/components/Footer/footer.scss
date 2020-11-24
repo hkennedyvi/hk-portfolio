@@ -33,7 +33,7 @@ $colorFour: #ffc0cb;
 
 @media only screen and (max-width: 600px) {
     .footer {
-        padding: 0 0 6rem 0;
+        padding: 1rem 0 6rem 0;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -41,5 +41,6 @@ $colorFour: #ffc0cb;
 
     .icon_container {   
         padding: 0;
+        font-size: 1.8rem;
     }
  }
