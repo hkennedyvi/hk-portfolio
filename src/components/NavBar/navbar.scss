@@ -1,6 +1,19 @@
+$bgPrimary: #cccccc;
+$bgSecondary: #5f5f5f;
+$bgDark: #414141;
+$bgLight: #a5a5a5;
+$bgWhite: #ffffff;
+$fontPrimary: #000000;
+$fontSecondary: #7e7e7e;
+$fontWhite: #e7e6e6;
+$colorOne: #ff0000;
+$colorTwo: #0000ff;
+$colorThree: #008000;
+$colorFour: #ffc0cb;
+
 .navbar {
     position: fixed;
-    background: grey;
+    background: $bgSecondary;
     width: 0;
     transition: width 200ms;
     z-index: 4;
@@ -21,14 +34,14 @@
 }
 
 .nav_item:hover {
-    background: rgb(95, 95, 95);
+    background: $bgDark;
 }
 
 .nav_link {
     display: flex;
     align-items: center;
     height: 5rem;
-    color: black;
+    color: $fontPrimary;
     font-weight: bolder;
     font-size: 2rem;
     text-decoration: none;
@@ -49,7 +62,7 @@
     .burger_bar {
         margin: 0.5rem 0;
         height: 0.5rem;
-        background: black;
+        background: $fontPrimary;
         border-radius: 1em;
     }
 
@@ -81,7 +94,7 @@
 
     .navbar_open {
         width: 16rem;
-        border-right: 1px solid black;
+        border-right: 1px solid $fontPrimary;
 
         .link_text {
             visibility: visible;
@@ -89,15 +102,15 @@
         }
 
         #nav_close_btn:first-child {
-            background: white;
-            color: black;
+            background: $bgWhite;
+            color: $fontPrimary;
             justify-content: flex-end;
             padding: 0 2rem 0 0;
         }
 
         #nav_close_btn:hover {
-            background: black;
-            color: white;
+            background: $fontPrimary;
+            color: $bgWhite;
         }
     }
 }
@@ -110,7 +123,7 @@
     .navbar {
         bottom: 0;
         width: 100vw;
-        background: rgb(95, 95, 95);
+        background: $bgSecondary;
     }
 
     .nav_list {
@@ -120,7 +133,7 @@
     .nav_link {
         font-size: 1rem;
         justify-content: center;
-        color: rgb(231, 230, 230);
+        color: $fontWhite;
     }
 
     .link_text {
@@ -131,7 +144,7 @@
 
     .nav_item:hover {
         background: rgb(31, 31, 31);
-        border: solid 1px white;
+        border: solid 1px $bgWhite;
     }
 
     .nav_item:first-child {

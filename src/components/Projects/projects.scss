@@ -1,3 +1,16 @@
+$bgPrimary: #cccccc;
+$bgSecondary: #5f5f5f;
+$bgDark: #414141;
+$bgLight: #a5a5a5;
+$bgWhite: #ffffff;
+$fontPrimary: #000000;
+$fontSecondary: #7e7e7e;
+$fontWhite: #e7e6e6;
+$colorOne: #ff0000;
+$colorTwo: #0000ff;
+$colorThree: #008000;
+$colorFour: #ffc0cb;
+
 .projects_header {
     font-size: 3rem;
     margin: 0 0 0 2rem;
@@ -19,31 +32,31 @@
 }
 
 .project_subheader {
-    color: rgb(126, 126, 126);
+    color: $fontSecondary;
 }
 
 .project_image {
-    border: 5px white solid;
+    border: 5px $bgWhite solid;
     max-width: 95%;
 }
 
 .projects_link {
     margin: 0 1rem;
-    background: white;
-    color: black;
+    background: $bgWhite;
+    color: $fontPrimary;
     text-decoration: none;
 }
 
 //Project Label
 .project:nth-child(odd) {
-    color: black;
+    color: $fontPrimary;
 }
 
 //Project Box
 .project:nth-child(even) {
     padding: 2rem;
-    background: black;
-    color: white;
+    background: $fontPrimary;
+    color: $bgWhite;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,7 +65,7 @@
 .test_circle {
     height: 20rem;
     width: 20rem;
-    background: black;
+    background: $fontPrimary;
     border-radius: 50%;
     animation: roll 1200ms, expand 1200ms;
     animation-fill-mode: forwards;
@@ -113,7 +126,7 @@
     //Project Label
     .project:nth-child(odd) {
         width: 30vw;
-        color: black;
+        color: $fontPrimary;
         align-items: flex-end;
         justify-content: flex-end;
     }
@@ -121,16 +134,16 @@
     //Project Box
     .project:nth-child(even) {
         width: 49vw;
-        background: black;
-        color: white;
+        background: $fontPrimary;
+        color: $bgWhite;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .projects_link {
-        background: white;
-        color: black;
+        background: $bgWhite;
+        color: $fontPrimary;
         text-decoration: none;
         padding: 0.5rem 3rem;
         margin: 0 1rem;
@@ -143,8 +156,8 @@
     }
 
     .projects_header {
-        background: black;
-        color: white;
+        background: $fontPrimary;
+        color: $bgWhite;
         text-align: center;
         margin: 2rem 0 0 0;
         padding: 2rem 0;
@@ -162,15 +175,15 @@
     .project:nth-child(odd) {
         margin: 8rem 0 0 0;
         width: 100vw;
-        color: black;
+        color: $fontPrimary;
         align-items: center;
     }
 
     //Project Box
     .project:nth-child(even) {
         width: 80vw;
-        background: black;
-        color: white;
+        background: $fontPrimary;
+        color: $bgWhite;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -181,9 +194,6 @@
     }
 
     .projects_link {
-        // background: white;
-        // color: black;
-        // text-decoration: none;
         padding: 0.2rem 1rem;
     }
 }

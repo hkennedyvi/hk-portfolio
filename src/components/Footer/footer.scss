@@ -1,5 +1,18 @@
+$bgPrimary: #cccccc;
+$bgSecondary: #5f5f5f;
+$bgDark: #414141;
+$bgLight: #a5a5a5;
+$bgWhite: #ffffff;
+$fontPrimary: #000000;
+$fontSecondary: #7e7e7e;
+$fontWhite: #e7e6e6;
+$colorOne: #ff0000;
+$colorTwo: #0000ff;
+$colorThree: #008000;
+$colorFour: #ffc0cb;
+
 .footer {
-    background: #cccccc;
+    background: $bgPrimary;
     display: flex;
     justify-content: flex-end;
     position: fixed;

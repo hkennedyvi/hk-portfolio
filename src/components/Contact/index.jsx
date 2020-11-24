@@ -22,21 +22,21 @@ function ContactForm() {
                     <div>
                         <span>
                             Email:<br />
-                            atestemail@email.com<br />
+                            hkennedyvi@gmail.com<br />
                             <hr />
                         </span>
                     </div>
                     <div>
                         <span>
                             Phone:<br />
-                            (123)456-7890<br />
+                            (503) 754-3532<br />
                             <hr />
                         </span>
                     </div>
                     <div>
                         <span>
                             LinkedIn:<br />
-                            linkedin.com/myprofile<br />
+                            linkedin.com/in/howard-kennedy<br />
                             <hr />
                         </span>
                     </div>

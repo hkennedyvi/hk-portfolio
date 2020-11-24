@@ -1,3 +1,16 @@
+$bgPrimary: #cccccc;
+$bgSecondary: #5f5f5f;
+$bgDark: #414141;
+$bgLight: #a5a5a5;
+$bgWhite: #ffffff;
+$fontPrimary: #000000;
+$fontSecondary: #7e7e7e;
+$fontWhite: #e7e6e6;
+$colorOne: #ff0000;
+$colorTwo: #0000ff;
+$colorThree: #008000;
+$colorFour: #ffc0cb;
+
 .main_header {
     margin: 0;
     font-size: 10rem;
@@ -23,15 +36,15 @@
 }
 
 .decoration_circle:nth-child(2) {
-    background: red;
+    background: $colorOne;
 }
 
 .decoration_circle:nth-child(3) {
-    background: blue;
+    background: $colorTwo;
 }
 
 .decoration_circle:nth-child(4) {
-    background: green;
+    background: $colorThree;
 }
 
 .arrow_btn {
@@ -49,7 +62,7 @@
     width: 30rem;
     height: 30rem;
     border-radius: 50%;
-    background: black;
+    background: $fontPrimary;
 }
 
 .main_image {
