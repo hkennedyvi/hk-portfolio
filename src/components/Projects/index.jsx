@@ -15,8 +15,8 @@ function Projects() {
       title: "camper",
       description: "Website for a fictional outdoor company.",
       objective: "Responsive, mobile-design with from scratch animations.",
-      link: "https://goodrestaurant.herokuapp.com/",
-      repo: "https://github.com/hkennedyvi/foodapp",
+      link: "https://master.d229e61yd7gdz6.amplifyapp.com/",
+      repo: "https://github.com/hkennedyvi/camper",
       image: Camper
     },
     {
