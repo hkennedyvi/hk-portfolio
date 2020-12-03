@@ -2,9 +2,10 @@ $bgPrimary: #cccccc;
 $bgSecondary: #5f5f5f;
 $bgDark: #414141;
 $bgLight: #a5a5a5;
+$bgLightSecondary: #bdbdbd;
 $bgWhite: #ffffff;
-$fontPrimary: #000000;
-$fontSecondary: #7e7e7e;
+$fontPrimary: #ffffff;
+$fontSecondary: #000000;
 $fontWhite: #e7e6e6;
 $colorOne: #ff0000;
 $colorTwo: #0000ff;
@@ -62,7 +63,7 @@ $colorFour: #ffc0cb;
     .burger_bar {
         margin: 0.5rem 0;
         height: 0.5rem;
-        background: $fontPrimary;
+        background: $fontSecondary;
         border-radius: 1em;
     }
 
@@ -94,7 +95,7 @@ $colorFour: #ffc0cb;
 
     .navbar_open {
         width: 16rem;
-        border-right: 1px solid $fontPrimary;
+        border-right: 1px solid $fontSecondary;
 
         .link_text {
             visibility: visible;
@@ -102,19 +103,20 @@ $colorFour: #ffc0cb;
         }
 
         #nav_close_btn:first-child {
-            background: $bgWhite;
-            color: $fontPrimary;
+            background: $bgLightSecondary;
+            color: $fontSecondary;
             justify-content: flex-end;
             padding: 0 2rem 0 0;
         }
 
         #nav_close_btn:hover {
-            background: $fontPrimary;
+            background: $fontSecondary;
             color: $bgWhite;
         }
     }
 }
 
+/* Small Screens */
 @media only screen and (max-width: 600px) {
     .burger {
         display: none;
