@@ -22,23 +22,27 @@ import Vue from './icons/vue';
 function Resume() {
     return (
         <div className="about_container">
+
             <div className="resume_container">
                 <h1 className="resume_header">
                     resume
                 </h1>
+                <div>
+                    {/* empty div to maintain grid */}
+                </div>
                 <div className="entry_left">
                     Name:
                 </div>
                 <div className="entry_right">
-                    Howard Kennedy
+                    <div className="entry">Howard Kennedy</div>
                 </div>
 
                 <div className="entry_left">
                     Education:
                 </div>
                 <div className="entry_right">
-                    <div>PSU</div>
-                    <div>U of O</div>
+                    <div className="entry">U of O (Full Stack Web Dev)</div>
+                    <div className="entry">PSU (Advertising)</div>
                 </div>
 
                 <div className="entry_left">
@@ -48,11 +52,11 @@ function Resume() {
                     <div className="entry">
                         <img id="figma_icon" src={Figma} alt="" />
                         <span className="entry_text">Figma</span>
-                        </div>
+                    </div>
                     <div className="entry">
                         <Photoshop />
                         <span className="entry_text">Photoshop Elements</span>
-                        </div>
+                    </div>
                 </div>
                 <div className="entry_left">
                     Languages:
@@ -141,7 +145,7 @@ function Resume() {
                     <div className="entry">
                         <Mysql />
                         <span className="entry_text">MySQL</span>
-                        </div>
+                    </div>
                 </div>
             </div>
         </div>
