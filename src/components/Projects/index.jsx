@@ -1,5 +1,6 @@
 import React from 'react';
 import './projects.scss';
+import Camper from './images/camper.png';
 import Restaurant from './images/restaurant.png';
 import Shopper from './images/shopper.png';
 import Cars from './images/cars.png';
@@ -11,33 +12,30 @@ function Projects() {
   const myProjects = [
     {
       number: 1,
+      title: "camper",
+      description: "Website for a fictional outdoor company.",
+      objective: "Responsive, mobile-design with from scratch animations.",
+      link: "https://goodrestaurant.herokuapp.com/",
+      repo: "https://github.com/hkennedyvi/foodapp",
+      image: Camper
+    },
+    {
+      number: 2,
       title: "good restaurant",
       description: "Website for a fictional restaurant.",
       objective: "Responsive, mobile-design with from scratch animations.",
       link: "https://goodrestaurant.herokuapp.com/",
       repo: "https://github.com/hkennedyvi/foodapp",
-      image: Restaurant,
-      isExpanded: true
+      image: Restaurant
     },
     {
-      number: 2,
+      number: 3,
       title: "shopper",
       description: "Website for a fictional online shoe store.",
       objective: "Responsive, mobile-design with from scratch animations.",
       link: "https://master.d3d58nhol1cgjn.amplifyapp.com/",
       repo: "https://github.com/hkennedyvi/store",
-      image: Shopper,
-      isExpanded: false
-    },
-    {
-      number: 3,
-      title: "cars",
-      description: "Website for a fictional online shoe store.",
-      objective: "Responsive, mobile-design with from scratch animations.",
-      link: "/",
-      repo: "https://github.com/hkennedyvi/project",
-      image: Cars,
-      isExpanded: false
+      image: Shopper
     },
     {
       number: 4,
@@ -46,28 +44,25 @@ function Projects() {
       objective: "Responsive, mobile-design with from scratch animations.",
       link: "https://i-bloggy.herokuapp.com/",
       repo: "https://github.com/hkennedyvi/bloggy",
-      image: Bloggy,
-      isExpanded: false
+      image: Bloggy
     },
     {
       number: 5,
+      title: "wheels of steel",
+      description: "Website for a fictional online shoe store.",
+      objective: "Responsive, mobile-design with from scratch animations.",
+      link: "/",
+      repo: "https://github.com/hkennedyvi/project",
+      image: Cars
+    },
+    {
+      number: 6,
       title: "i'm already booked",
       description: "Website for a fictional online shoe store.",
       objective: "Responsive, mobile-design with from scratch animations.",
       link: "https://imalreadybooked.herokuapp.com/",
       repo: "https://github.com/hkennedyvi/google-books",
-      image: AlreadyBooked,
-      isExpanded: false
-    },
-    {
-      number: 6,
-      title: "shopper",
-      description: "Website for a fictional online shoe store.",
-      objective: "Responsive, mobile-design with from scratch animations.",
-      link: "https://master.d3d58nhol1cgjn.amplifyapp.com/",
-      repo: "https://github.com/hkennedyvi/store",
-      image: Shopper,
-      isExpanded: false
+      image: AlreadyBooked
     },
   ];
 
