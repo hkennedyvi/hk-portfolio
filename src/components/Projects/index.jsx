@@ -14,7 +14,7 @@ function Projects() {
       number: 1,
       title: "camper",
       description: "Website for a fictional outdoor company.",
-      objective: "Responsive, mobile-design with from scratch animations.",
+      objective: "Responsive, mobile design with original svg logo and transparent background PNG.",
       link: "https://master.d229e61yd7gdz6.amplifyapp.com/",
       repo: "https://github.com/hkennedyvi/camper",
       image: Camper
@@ -23,7 +23,7 @@ function Projects() {
       number: 2,
       title: "good restaurant",
       description: "Website for a fictional restaurant.",
-      objective: "Responsive, mobile-design with from scratch animations.",
+      objective: "Responsive, mobile design with animations from scratch.",
       link: "https://goodrestaurant.herokuapp.com/",
       repo: "https://github.com/hkennedyvi/foodapp",
       image: Restaurant
@@ -40,8 +40,8 @@ function Projects() {
     {
       number: 4,
       title: "bloggy",
-      description: "Website for a fictional online shoe store.",
-      objective: "Responsive, mobile-design with from scratch animations.",
+      description: "Twitteresque blog application.",
+      objective: "User registration and login with admin capability.",
       link: "https://i-bloggy.herokuapp.com/",
       repo: "https://github.com/hkennedyvi/bloggy",
       image: Bloggy
@@ -49,7 +49,7 @@ function Projects() {
     {
       number: 5,
       title: "wheels of steel",
-      description: "Website for a fictional online shoe store.",
+      description: "Website for a fictional automotive dealer.",
       objective: "Responsive, mobile-design with from scratch animations.",
       link: "/",
       repo: "https://github.com/hkennedyvi/project",
@@ -58,8 +58,8 @@ function Projects() {
     {
       number: 6,
       title: "i'm already booked",
-      description: "Website for a fictional online shoe store.",
-      objective: "Responsive, mobile-design with from scratch animations.",
+      description: "User generated library application.",
+      objective: "Personalized bookshelf with Google Books API search and save.",
       link: "https://imalreadybooked.herokuapp.com/",
       repo: "https://github.com/hkennedyvi/google-books",
       image: AlreadyBooked
